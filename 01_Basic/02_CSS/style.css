@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/*
+h1{
+     color is a proparty,red is a value 
+    color: rgb(40, 75, 163);
+    background-color: black;
+    font-size: 50px;
+    font-family: arial;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+*/
+
+/* div{
+   height: 300px;
+   width: 300px;
+   background-color: antiquewhite;
+} */
+
+h1 {
+    color: red;
+
+}
+
+#Amit {
+    /*for id*/
+    background-color: aqua;
+}
+
+.a {
+    /*for class*/
+    color: brown;
+}
