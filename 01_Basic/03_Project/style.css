@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #d5ff3f;
+
+}
+nav{
+    /* background-color: #fff; */
+    padding: 60px 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+   
+}
+nav h2{
+    font-size: 48px;
+    font-weight: 500;    
+    
+}
+
+nav a{
+    font-size: 39px;
+    color: #000;
+    text-decoration: none; 
+}
