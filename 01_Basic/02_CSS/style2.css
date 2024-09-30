@@ -1,14 +1,40 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html,body{
+html,
+body {
     height: 100%;
     width: 100%;
 }
 
-#box1{
-    
+/* body{
+    background-color: black;
+} */
+
+#box1 {
+    /*box1 movable*/
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 2px solid #100101;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+#box2 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 2px solid #fbfbfd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
 }
