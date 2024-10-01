@@ -65,15 +65,15 @@ for(var b=1;b<5;b++){
 
 //function
 
-function dance(){
+function dance() {
     console.log("Doremon Doremon la laaa...")
 }
 
-function walk(a){
-    console.log("Hay,I am walking...",a)
+function walk(a) {
+    console.log("Hay,I am walking...", a)
 }
 
-function eat(){
+function eat() {
     console.log("Hey!I a eating Dora cake...")
 }
 
@@ -82,24 +82,24 @@ eat()
 walk(78)
 dance()
 
-function abc(){
+function abc() {
     console.log("Hello")
 
     return 39
 }
 
-var a=abc()
+var a = abc()
 console.log(a)
 
 //first class function
-var baby = function (){
+var baby = function () {
     console.log("le mare baby..")
 }
 
 baby()
 
 //arrow function
-var virat = ()=>{
+var virat = () => {
     console.log("Ee sala Cup Namde")
 }
 
@@ -108,17 +108,17 @@ virat()
 //ES5 is upto 2015-->var
 //global variable
 
-const groom="Selmon"
-const bride="Kat"
+const groom = "Selmon"
+const bride = "Kat"
 
 
 //groom="Vickey"
 
-console.log(groom,"weds",bride)
+console.log(groom, "weds", bride)
 
 
 //Arrays
-var arr=[11,22,33,44]
+var arr = [11, 22, 33, 44]
 console.log(arr)
 console.log(arr[0])
 console.log(arr[3])
@@ -130,15 +130,42 @@ arr.pop()
 console.log(arr);
 console.log(arr.length);
 
-var arr1=[1,2,3,4,5]
-arr1.forEach(function(elam){
-    console.log('hello',elam)  
+var arr1 = [1, 2, 3, 4, 5]
+arr1.forEach(function (elam) {
+    console.log('hello', elam)
 })
 
 /*
 () -->Function
 {}-->Object
 []-->Array
-*/ 
+*/
 
 //Object
+var obj = {
+    user: 'Virat',
+    age: 36,
+}
+console.log(obj);
+console.log(obj.user); //Virat
+
+var user = {
+    userName: 'Anish',
+    Age: 21,
+    greet: function () {
+        console.log("Good Night");
+        return 10
+    }
+}
+//console.log(user.greet());  //Good Night,undefined
+console.log(user.greet());    //Good Night,10
+
+//Array of obj**
+var arr = [
+    { name: "Virat", age: 36 },
+    { name: "Rohit", age: 38 },
+    { name: "Akash", age: 22 }
+]
+console.log(arr);
+console.log(arr[1]); //{name: 'Rohit', age: 38}
+console.log(arr[2].age); //22
