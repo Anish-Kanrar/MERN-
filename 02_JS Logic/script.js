@@ -69,4 +69,3 @@ let newArr = names2.filter(function(value){
   })
 //['Ava', 'Amelia', 'Aiden']  
 */
-
