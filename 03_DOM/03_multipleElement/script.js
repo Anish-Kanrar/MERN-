@@ -17,3 +17,4 @@ h.forEach(function(e){
 var box = document.querySelector("#box")
 box.innerHTML = "<h1>Virat</h1>"
 // box.textContent="<h1>Virat</h1>"
+
