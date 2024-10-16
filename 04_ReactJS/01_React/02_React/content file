@@ -1,0 +1,25 @@
+React JS
+
+1.	What is React and why React (Introduction) ✅
+2.	Install React-Vite Boilerplate(npm create vite) ✅
+3.	Import export ✅
+4.	React Folder Structure ✅
+5.	Real DOM vs Virtual DOM ✅
+6.	JSX ✅
+7.	useState hooks(variable of react)
+8.	Adding CSS(Normal and Tailwind)
+9.	Calling Functions in react
+10.	Form handling in react
+11.	Two way Binding
+12.	Componenets
+13.	Props drilling
+14.	Rebdering JSON Data
+15.	Integrating API(axios)
+16.	React Router DOM
+17.	React Toastify(for flash messages)
+18.	useEffect(lifecycle method)
+19.	useRef(perform Dom events in react)
+20.	Context Api
+21.	Redux Toolkit
+22.	Framer Motion
+23.	Deployment
