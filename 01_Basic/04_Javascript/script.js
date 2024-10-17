@@ -169,3 +169,5 @@ var arr = [
 console.log(arr);
 console.log(arr[1]); //{name: 'Rohit', age: 38}
 console.log(arr[2].age); //22
+
+
