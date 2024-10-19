@@ -46,7 +46,6 @@ else
     console.log("You can't enter this website")
 */
 
-
 /*
 //Loop
 var a=1
