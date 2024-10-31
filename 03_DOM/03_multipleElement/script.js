@@ -1,5 +1,4 @@
 /*
-
 // Selecting multiple elements at a same time
 var h=document.querySelectorAll("h1")
 console.log(h);
