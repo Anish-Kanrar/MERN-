@@ -219,7 +219,6 @@ users.forEach(function(user){
 
 console.log(obj);
 */
-
 //Removing or updating a specific
 const users = [
     { id: 1, name: "Alice", age: 28 },
