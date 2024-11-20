@@ -9,6 +9,7 @@ btn.addEventListener("click",function(){
     console.log("clicked");
     flag=1
     }
+        
     else{
     bulb.style.backgroundColor="transparent"
     console.log("Again clicked");
