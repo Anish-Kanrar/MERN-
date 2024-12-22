@@ -36,4 +36,5 @@ a.addEventListener("click",function(){
     a.innerHTML="Change ho geya mai"
     a.style.color="red"
     a.style.backgroundColor="#fff"
+ 
 })
