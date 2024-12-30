@@ -15,5 +15,4 @@ btn.addEventListener("click",function(){
     console.log("Again clicked");
     flag=0
     }
-    
 })
