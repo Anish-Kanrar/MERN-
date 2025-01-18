@@ -18,7 +18,6 @@ names.forEach(function(value){
 //here not use 'break','continue'-keyword
 */
 
-
 /*
 //map*****
 var names=["Virat","Rohit","Hardik","Dhoni","Bumrah"]
